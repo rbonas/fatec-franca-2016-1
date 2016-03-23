@@ -25,11 +25,13 @@ header {
   margin: 0 -5vw;
   padding-left: 15px;
 }
+
 #logo-principal {
   width: 30%;
   min-width: 200px;
   max-width: 350px;
 }
+
 #logo-secundario {
   width: 30%;
   max-width: 300px;
@@ -38,16 +40,19 @@ header {
   bottom: 0;
   right: 0;
 }
+
 #menu-principal {
   background-color: rgb(74, 85, 92);
   margin: 0 -5vw;
 }
+
 #menu-principal ul {
   list-style-type: none;
   overflow: auto;
   margin: 0;
   padding: 0;
 }
+
 #menu-principal ul li {
   float: left;
   /*margin-left: 5px;
@@ -55,6 +60,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;*/
 }
+
 #menu-principal a {
   color: #ffffff;
   text-decoration: none; /* tira o sublinhado dos links */
@@ -62,17 +68,21 @@ header {
   display: block;
   font-weight: bold;
 }
+
 .link-sel {
   background-color: rgb(148, 22, 17);
 }
+
 #menu-principal a:hover {
   background-color: #5B666D;
 }
+
 section {
   width: 65%;
   float: left;
   padding: 15px 0;
 }
+
 section a {
   color: rgb(176, 17, 22);
   text-decoration: none;
@@ -167,6 +177,7 @@ aside {
   width: 35%;
   float: right;
 }
+
 footer {
   background-color: palegreen;
   position: fixed;
@@ -174,6 +185,7 @@ footer {
   left: 0;
   width: 100%;
 }
+
 @media (max-width: 400px) {
   section, aside {
     float: none;
